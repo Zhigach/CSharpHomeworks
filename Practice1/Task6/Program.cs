@@ -9,5 +9,7 @@
 Console.WriteLine("Enter an integer number:");
 int a = Convert.ToInt32(Console.ReadLine());
 
+Console.WriteLine("Answer:");
+
 if (a % 2 == 0) Console.WriteLine("Yes it's an even number");
 else Console.WriteLine("No, it's an odd number");

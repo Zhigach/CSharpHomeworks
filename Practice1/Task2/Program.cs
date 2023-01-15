@@ -12,6 +12,8 @@ int firstNum = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter second integer number to compare with the first one:");
 int secondNum = Convert.ToInt32(Console.ReadLine());
 
+Console.WriteLine("Answer:");
+
 if (firstNum > secondNum){
     Console.WriteLine($"max = {firstNum}, min = {secondNum}");
 } else if (secondNum > firstNum){
