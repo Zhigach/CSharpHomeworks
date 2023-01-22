@@ -29,11 +29,11 @@ double getDistance(int ax, int ay, int az, int bx, int by, int bz){
 
 int ax = getCoordFromUser("Enter x coordinate of the first point");
 int ay = getCoordFromUser("Enter y coordinate of the first point");
-int az = getCoordFromUser("Enter y coordinate of the first point");
+int az = getCoordFromUser("Enter z coordinate of the first point");
 
 int bx = getCoordFromUser("Enter x coordinate of the second point");
 int by = getCoordFromUser("Enter y coordinate of the second point");
-int bz = getCoordFromUser("Enter y coordinate of the second point");
+int bz = getCoordFromUser("Enter z coordinate of the second point");
 
 double distance = getDistance(ax, ay, az, bx, by, bz);
 
