@@ -57,4 +57,4 @@ void PrintMatrix(int[,] mat){
     }
 }
 
-PrintMatrix(Fill2dMatrixSpiral(5,5));
+PrintMatrix(Fill2dMatrixSpiral(4,4));
